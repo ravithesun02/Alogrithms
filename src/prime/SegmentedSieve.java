@@ -20,7 +20,7 @@ public class SegmentedSieve {
        List<Integer> ans=new ArrayList<>();
        for(int i=0;i<primelist.size();i++)
        {
-           for(int j=a;j<=b;j++) {
+           for(int j=a;j<=b;j++) { 
                if (j % primelist.get(i) == 0)
                    touched[j - a] = true;
            }
